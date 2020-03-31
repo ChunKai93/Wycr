@@ -1,0 +1,4 @@
+{
+    "live" : ["wycr-live001", "wycr-live002"],
+    "test" : ["wycr-test"]
+}

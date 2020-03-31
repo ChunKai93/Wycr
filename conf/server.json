@@ -1,0 +1,17 @@
+{
+    "wycr-test": {
+        "info": "FXfM6Q/JbdLykc9jHF30ot1A/J1u0enfHGoS2d7Lm0KPXFGVLHFZMNN4Km+bIuiwhG6usme3y4zD\nD9pkAmLymVlRL0Hf7hp7PyQxrHfqd9fM9bzeZFO1XWILoi+70ORnY9LxJSdPqEzcEPemhZDpN6wk\ngNpk3zSiS+sJPQafL9dvJ3t/vhAhEDzIz9U/QTJKjnoq5ajl3ssT4W4REyihs8mSdkfF4VCsbJh2\n7vn67o3AIQ5d4K48jTy8Vd5Lp6ge/ds6eAG/i2EUbM05ctfbgZ+UqCNdEhMapxeSb+awmS1lFQNy\nH28FOhBcqpOYgVSj/2E97zYw0rb0WfVlBPTBqRhcJQzwjM4CVFF0IPTkU4VHQgqJouZtHJR+M/eI\nvgr/i+ugLvO43Li9B9BIRJc1CN0sNE8AYoTEaxCbhk/3SLSz6pVghAKz49hFeRq7kLupVeAECYwp\nGsEJKKZ+Q5NkWx+llvYM/ICqtijC3/7jyzzp9NRDGcTu0RqrRlN8pJkYNnS19unbUllygj04mj2P\nv29yXBnuuCijy58snlbdquvWG8ZCQB0zf1hRURJjDxO1h6XTnCV13n4SIWdYfMqzddiEHgYpXmQ3\n9FiJ7PfBjLLDguyaz/MRCW96dIjnDE4MhtCW2FDQpUMmlxuv1/T7aMkH9d0gfRWfhdrDRODo8fw=\n",
+        "host": "192.168.0.31",
+        "port": 22
+    },
+    "wycr-live001": {
+        "info": "meNSsGPsMlfhQkHQ9e7cQOcI8iYoIhitdhZszbBdhk2BcxdzC1FpzgeeR7b6Llqj3lIM4wwUqxVs\nTqhJtHBWMjk71q9iaTEAxPeADZM/mtNX2KYl+Nm2lAL8+hgW2zqWZv3/qeAWLTpbJzok+SYLjSeZ\n3Cr//4jZ+kus+LMvmr9mLFhK3gJeWza5GcBxusNOEegLba0UqydyLJtdpBzMnYQx18pRwCrslbJq\nZ2d89yYpH2Yc5se/T+R4/OvH09B2MbDzrpVj5X4gFi+7WsaJ2s52LaIK/vZ7KQ2cIsaiow6gH4op\ncCbkAWGHZDMxLSZ5S8aDy2p2cKahp3gSfsA+vrAbSw4Odb1YG8nkUWg34F475aDZA9L/vCIGA1YK\nS2KU7wXypwEwR/dY5LWEwBkLKfdMkE9sQrRUgk14jsFncBzWZJHyM40DCP6NDrlVm38V8eXR2ho8\nLcHuUtwKYcuFaz1L4LULuVhQrxMJMhcor0WUCfMAEgzLu9ryUNecJKKlgE4i9muNKA+FxPm2KLvo\nuopMFOcU9xe3m4vNY9nLW4Uo/dwpCiqbAtdeWKCzG84IK7YELZtb7Pr+t34rJZ9XS8JB5UOXz2+o\nebStF2j5nyzuWNlR9Tj/4+cKy/u7kDyd7xxZrDhK3rGb1sMz7hjJXnl5aZlwwEh+YM0NYFXT8D0=\n",
+        "host": "192.168.0.33",
+        "port": 22
+    },
+    "wycr-live002": {
+        "info": "meNSsGPsMlfhQkHQ9e7cQOcI8iYoIhitdhZszbBdhk2BcxdzC1FpzgeeR7b6Llqj3lIM4wwUqxVs\nTqhJtHBWMjk71q9iaTEAxPeADZM/mtNX2KYl+Nm2lAL8+hgW2zqWZv3/qeAWLTpbJzok+SYLjSeZ\n3Cr//4jZ+kus+LMvmr9mLFhK3gJeWza5GcBxusNOEegLba0UqydyLJtdpBzMnYQx18pRwCrslbJq\nZ2d89yYpH2Yc5se/T+R4/OvH09B2MbDzrpVj5X4gFi+7WsaJ2s52LaIK/vZ7KQ2cIsaiow6gH4op\ncCbkAWGHZDMxLSZ5S8aDy2p2cKahp3gSfsA+vrAbSw4Odb1YG8nkUWg34F475aDZA9L/vCIGA1YK\nS2KU7wXypwEwR/dY5LWEwBkLKfdMkE9sQrRUgk14jsFncBzWZJHyM40DCP6NDrlVm38V8eXR2ho8\nLcHuUtwKYcuFaz1L4LULuVhQrxMJMhcor0WUCfMAEgzLu9ryUNecJKKlgE4i9muNKA+FxPm2KLvo\nuopMFOcU9xe3m4vNY9nLW4Uo/dwpCiqbAtdeWKCzG84IK7YELZtb7Pr+t34rJZ9XS8JB5UOXz2+o\nebStF2j5nyzuWNlR9Tj/4+cKy/u7kDyd7xxZrDhK3rGb1sMz7hjJXnl5aZlwwEh+YM0NYFXT8D0=\n",
+        "host": "192.168.0.34",
+        "port": 22
+    }
+}

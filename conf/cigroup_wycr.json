@@ -1,0 +1,60 @@
+{
+    "live": {
+        "cigroupfolder": "live_2020-03-30_14-39-15",
+        "folder": {
+            "backup_file": "ve/default/20-03-30_14-39-27.tar.gz",
+            "branch": {
+                "admin": "master",
+                "api": "master",
+                "common": "master"
+            },
+            "last_backup_file": null,
+            "pto": "live_default_20200330143928554",
+            "pto_time": "2020-03-30 14:39:37",
+            "publish_time": "2020-03-30 14:39:28"
+        },
+        "nginx": {
+            "listenlist": [
+                {
+                    "port": 80,
+                    "ssl": false
+                }
+            ],
+            "servername": {
+                "admin": "a.wycr888.com",
+                "api": "api.wycr888.com www.wycr888.com m.wycr888.com"
+            }
+        },
+        "server_group": "live",
+        "server_type": "g"
+    },
+    "s1": {
+        "cigroupfolder": "s1_2020-03-27_15-39-13",
+        "folder": {
+            "backup_file": "s1/default/20-03-30_16-08-48.tar.gz",
+            "branch": {
+                "admin": "zjj",
+                "api": "master",
+                "common": "master"
+            },
+            "last_backup_file": "s1/default/20-03-30_15-40-10.tar.gz",
+            "pto": "",
+            "pto_time": "",
+            "publish_time": "2020-03-30 16:08:49"
+        },
+        "nginx": {
+            "listenlist": [
+                {
+                    "port": 80,
+                    "ssl": false
+                }
+            ],
+            "servername": {
+                "admin": "a-s1.test.wycr888.com",
+                "api": "api-s1.test.wycr888.com"
+            }
+        },
+        "server_group": "test",
+        "server_type": "g"
+    }
+}

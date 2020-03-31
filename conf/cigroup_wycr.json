@@ -2,16 +2,16 @@
     "live": {
         "cigroupfolder": "live_2020-03-30_14-39-15",
         "folder": {
-            "backup_file": "ve/default/20-03-30_14-39-27.tar.gz",
+            "backup_file": "live/default/20-03-30_17-38-04.tar.gz",
             "branch": {
                 "admin": "master",
                 "api": "master",
                 "common": "master"
             },
-            "last_backup_file": null,
-            "pto": "live_default_20200330143928554",
-            "pto_time": "2020-03-30 14:39:37",
-            "publish_time": "2020-03-30 14:39:28"
+            "last_backup_file": "live/default/20-03-30_18-34-41.tar.gz",
+            "pto": "live_default_20200330184525244",
+            "pto_time": "2020-03-30 18:45:29",
+            "publish_time": "2020-03-30 18:45:25"
         },
         "nginx": {
             "listenlist": [
@@ -31,16 +31,16 @@
     "s1": {
         "cigroupfolder": "s1_2020-03-27_15-39-13",
         "folder": {
-            "backup_file": "s1/default/20-03-30_16-08-48.tar.gz",
+            "backup_file": "s1/default/20-03-31_11-51-42.tar.gz",
             "branch": {
                 "admin": "zjj",
                 "api": "master",
                 "common": "master"
             },
-            "last_backup_file": "s1/default/20-03-30_15-40-10.tar.gz",
-            "pto": "",
-            "pto_time": "",
-            "publish_time": "2020-03-30 16:08:49"
+            "last_backup_file": "s1/default/20-03-31_11-45-38.tar.gz",
+            "pto": "s1_default_20200331115144016",
+            "pto_time": "2020-03-31 11:51:46",
+            "publish_time": "2020-03-31 11:51:44"
         },
         "nginx": {
             "listenlist": [
@@ -52,6 +52,35 @@
             "servername": {
                 "admin": "a-s1.test.wycr888.com",
                 "api": "api-s1.test.wycr888.com"
+            }
+        },
+        "server_group": "test",
+        "server_type": "g"
+    },
+    "s2": {
+        "cigroupfolder": "s2_2020-03-31_11-56-38",
+        "folder": {
+            "backup_file": "s2/default/20-03-31_12-20-29.tar.gz",
+            "branch": {
+                "admin": "master",
+                "api": "master",
+                "common": "master"
+            },
+            "last_backup_file": "s2/default/20-03-31_12-13-12.tar.gz",
+            "pto": "s2_default_20200331122031047",
+            "pto_time": "2020-03-31 12:20:35",
+            "publish_time": "2020-03-31 12:20:31"
+        },
+        "nginx": {
+            "listenlist": [
+                {
+                    "port": 80,
+                    "ssl": false
+                }
+            ],
+            "servername": {
+                "admin": "a-s2.test.wycr888.com",
+                "api": "api-s2.test.wycr888.com"
             }
         },
         "server_group": "test",

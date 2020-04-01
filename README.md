@@ -58,6 +58,9 @@
 
 ---
 ### 使用---命令
+```
+ln -s /files/sh/upload/wycr/main.py /usr/bin/nupl
+```
 展示某个测试机的nginx配置信息,如s1:
 ```
 nupl -c shownginx -g s1

@@ -173,7 +173,8 @@ class Shell(object):
     def push_code(self):
         if self.csrv.cigroupfolder == "":
             self.csrv.cigroupfolder = self.csrv.group_name + "_" + time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime())
-        cmd = "/files/sh/upload/upload_" + self.csrv.type + ".sh " + self.csrv.cigroupfolder + " default publish " + self.csrv.admin_branch + self.csrv.api_branch + self.csrv.common_branch
+        cmd = "/files/sh/upload/upload_" + self.csrv.type + ".sh " + self.csrv.cigroupfolder + " default publish " + self.csrv.admin_branch + " " + self.csrv.api_branch + " " + self.csrv.common_branch
+        # print(cmd)
         output = self.__local_cmd(cmd)
         output_arr = output.split("\n")
 
@@ -274,8 +275,6 @@ class Shell(object):
         return True, {}
 
     def __sftp_push(self, file, to_file):
-        print(3333)
-        print(self.normal_server_list)
         self.sftp_status_list = []
         for srv in self.normal_server_list:
             try:

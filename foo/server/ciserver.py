@@ -110,6 +110,7 @@ class Ciserver(object):
     }
     
     location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$ {
+        root /files/php/%s/%s/default/;
         access_log off;
         expires 30d;
     }
@@ -119,7 +120,7 @@ class Ciserver(object):
         expires 1h;
     }
     access_log  /usr/local/nginx/logs/%s_api_%s.log main;
-}''' % (port, cigroup["nginx"]["servername"]["api"], certificate, self.type, cigroupname, self.type, cigroupname)
+}''' % (port, cigroup["nginx"]["servername"]["api"], certificate, self.type, cigroupname, self.type, cigroupname, self.type, cigroupname)
 
         admin = '''server {
     listen %s;
@@ -144,6 +145,7 @@ class Ciserver(object):
     }
 
     location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$ {
+        root /files/php/%s/%s/default/;
         access_log off;
         expires 30d;
     }
@@ -153,7 +155,7 @@ class Ciserver(object):
         expires 1h;
     }
     access_log  /usr/local/nginx/logs/%s_admin_%s.log main;
-}''' % (port, cigroup["nginx"]["servername"]["admin"], certificate, self.type, cigroupname, self.type, cigroupname)
+}''' % (port, cigroup["nginx"]["servername"]["admin"], certificate, self.type, cigroupname, self.type, cigroupname, self.type, cigroupname)
 
         return True, {"api": api, "admin": admin}
 

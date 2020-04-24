@@ -77,6 +77,11 @@ def main(opt_dict):
                                 print("\033[1;33m" + msg + "\033[0m")
                                 exit(2)
 
+                            ok, msg = sh.reload_php()
+                            if not ok:
+                                print("\033[1;33m" + msg + "\033[0m")
+                                exit(2)
+
                             csrv.save_cigroup(opt_dict["cigroupname"])
                             print("\033[1;32m上线完成,请检查\033[0m")
                         else:

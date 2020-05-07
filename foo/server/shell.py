@@ -241,6 +241,9 @@ class Shell(object):
 
         cmd = "ln -s /files/php/" + self.type + "/data " + self.codepath
         cmd += " && ln -s /files/php/" + self.type + "/upload " + self.codepath
+        cmd += " && ln -s /files/php/" + self.type + "/conf/config.php " + self.codepath
+        cmd += " && ln -s /files/php/" + self.type + "/conf/database.php " + self.codepath
+        cmd += " && ln -s /files/php/" + self.type + "/conf/redis.php " + self.codepath
         # print(cmd)
         result_list = self.__cmd(cmd)
         for result in result_list:

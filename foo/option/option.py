@@ -5,7 +5,6 @@ import getopt
 class option(object):
     _instance = None
 
-    # 单例模式(这种写法多线程会有问题)
     def __new__(cls, *args, **kwargs):
         if cls._instance is None:
             cls._instance = object.__new__(cls, *args, **kwargs)

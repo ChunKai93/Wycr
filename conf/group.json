@@ -1,4 +1,4 @@
 {
-    "live" : ["wycr-live001", "wycr-live002"],
-    "test" : ["wycr-test"]
+    "live" : ["live1_hostname", "live2_hostname"],
+    "test" : ["test_hostname"]
 }
